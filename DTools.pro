@@ -16,13 +16,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    UI/FileAnalyze/fileanalyzewindow.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    UI/FileAnalyze/fileanalyzewindow.h \
     mainwindow.h
 
 FORMS += \
+    UI/FileAnalyze/fileanalyzewindow.ui \
     mainwindow.ui
 
 TRANSLATIONS += \
